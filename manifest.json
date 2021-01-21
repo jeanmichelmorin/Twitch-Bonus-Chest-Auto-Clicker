@@ -1,0 +1,20 @@
+{
+	"name": "Twitch Bonus Chest Auto-Click (Enhanced & Lightweight)",
+	"version": "1.0",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["*://*.twitch.tv/*"],
+			"js": ["controller.js"]
+		}
+	],
+
+	"browser_action": {
+		"default_title": "Twitch Bonus Chest Auto-Click",
+		"default_icon": "image.png"
+	},
+
+	"icons": {
+      		"184": "image.png"
+    }
+}
